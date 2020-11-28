@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Product extends Component {
   render() {
     return (
-      <div className="card bg-light" style={{ width: 300 }}>
+      <div className="card bg-light">
         <img
           className="card-img-top"
           src="https://picsum.photos/202"

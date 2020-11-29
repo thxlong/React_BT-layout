@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 import Product from "./Product";
 import ProductList from "./ProductList";
 import SideBar from "./SideBar";
-import "./SideBar.css"
+import "./SideBar.css";
 
 export default class Body extends Component {
   render() {
@@ -13,12 +13,12 @@ export default class Body extends Component {
           <SideBar />
         </div>
 
-        <div className="col-6">
+        <div className="col-7">
           <Carousel />
           <ProductList />
         </div>
 
-        <div className="col-3"></div>
+        <div className="col-2"></div>
       </div>
     );
   }
